@@ -131,4 +131,9 @@ class DoublyLinkedList {
         foundNode.next = null;
         return foundNode;
     }
+
+    reverse() {
+        // TODO
+        return this;
+    }
 }
