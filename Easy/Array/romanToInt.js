@@ -9,7 +9,7 @@ var romanToInt = function(s) {
         'M': 1000
     };
     let sum = 0;
-    for(let i = 0; i < s.length ; i++) {
+    for(let i = 0; i < s.length; i++) {
         if ((i < (s.length - 1)) && map[s[i]] < map[s[i+1]]) {
             sum -= map[s[i]];
         } else {
